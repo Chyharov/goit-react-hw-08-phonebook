@@ -8,7 +8,6 @@ import PublicRoute from './PublicRoute';
 import PrivateRoute from './PrivateRoute';
 import UserMenu from './UserMenu/UserMenu';
 import s from './App.module.css';
-import { getMustContats } from 'redux/auth/authSelectors';
 
 const HomePage = lazy(() => import('../views/HomePage'));
 const RegisterPage = lazy(() => import('../views/RegisterPage'));
@@ -20,7 +19,7 @@ const App = () => {
   const isLoggedIn = useSelector(getLoggedIn);
 
   useEffect(() => {
-    getMustContats && dispatch(getCurrentUserThunk());
+    dispatch(getCurrentUserThunk());
   }, [dispatch]);
 
   return (
