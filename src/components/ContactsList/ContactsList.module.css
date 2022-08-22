@@ -1,0 +1,26 @@
+.list {
+  font-size: 28px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    310deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 0, 52, 1) 35%
+  );
+  color: #fff;
+}

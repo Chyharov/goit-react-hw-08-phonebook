@@ -1,0 +1,11 @@
+.container {
+  min-height: 100%;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.PhonebookTitle {
+  font-size: 50px;
+  margin: 50px 0px 30px;
+  text-align: center;
+}

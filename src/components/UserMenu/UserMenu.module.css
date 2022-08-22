@@ -1,0 +1,22 @@
+.userMenu__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userMenu__email {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+/* .iconLogOut {
+  background-image: url('../../icons/logout.svg');
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+} */
