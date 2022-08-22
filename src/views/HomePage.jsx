@@ -1,4 +1,4 @@
-import Navigation from 'components/UserMenu/Navigation/Navigation';
+import Navigation from 'components/Navigation/Navigation';
 
 const HomePage = () => {
   return <Navigation />;

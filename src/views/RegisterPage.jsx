@@ -1,4 +1,4 @@
-import Form from 'components/UserMenu/Form/Form';
+import Form from 'components/Form/Form';
 import LinkGoBack from 'components/LinkGoBack/LinkGoBack';
 import { useDispatch } from 'react-redux';
 import { registerThunk } from 'redux/auth/authOperations';
