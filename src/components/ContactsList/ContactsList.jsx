@@ -35,7 +35,7 @@ export default function ContactList() {
             <li className={s.item} key={contact.id}>
               <span className={s.name}>{contact.name}:</span>
               <span className={s.number}>
-                <a href={'tel'}>{contact.number}</a>
+                <a href={'tel:number'}>{contact.number}</a>
               </span>
               <button
                 className={s.btn}
